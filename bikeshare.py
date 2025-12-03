@@ -42,7 +42,7 @@ def get_filters():
 
 def load_data(city, month, day):
     """
-    Loads data and filters by month and day if applicable.
+    Loads data and filters by month and day if applicable
     """
     df = pd.read_csv(CITY_DATA[city])
 
