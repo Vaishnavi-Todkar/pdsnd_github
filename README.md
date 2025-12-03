@@ -1,17 +1,50 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
+\# Udacity Version Control Project
 
-### Date created
-Include the date you created this project and README file.
+&nbsp;
 
-### Project Title
-Replace the Project Title
+This project is part of Udacity's \*\*Version Control with Git\*\* course.  
 
-### Description
-Describe what your project is about and what it does
+It demonstrates the use of Git for tracking changes, branching, merging, and resolving conflicts in a project.
 
-### Files used
-Include the files used
+&nbsp;
 
-### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+---
+
+&nbsp;
+
+\## 📌 Project Overview
+
+&nbsp;
+
+The goal of this project is to:
+
+\- Initialize a Git repository
+
+\- Create and switch between branches
+
+\- Make changes across branches
+
+\- Perform commits with meaningful messages
+
+\- Merge branches into `main`
+
+\- Create and resolve merge conflicts
+
+\- Push project work to a remote GitHub repository
+
+&nbsp;
+
+This repo contains the full workflow demonstrating Git version control concepts.and this document will help to understand the commands performed.
+
+## Additional Notes
+This project demonstrates version control workflows and branch management.
+
+
+&nbsp;
+
+---
+
+&nbsp;
+
+\## 🗂️ Project Structure
 
