@@ -1,4 +1,4 @@
-\# Udacity Version Control Project
+\# Udacity Version Control Project:
 
 &nbsp;
 
