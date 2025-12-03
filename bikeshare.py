@@ -39,10 +39,9 @@ def get_filters():
     print('-' * 40)
     return city, month, day
 
-
 def load_data(city, month, day):
     """
-    Loads data and filters by month and day if applicable
+    Loads data and filters by month and day if applicable.
     """
     df = pd.read_csv(CITY_DATA[city])
 
@@ -70,7 +69,6 @@ def time_stats(df):
 
     print('-' * 40)
 
-
 def station_stats(df):
     """Displays popular stations and trips."""
     print('\nCalculating The Most Popular Stations and Trip...\n')
@@ -83,7 +81,6 @@ def station_stats(df):
 
     print('-' * 40)
 
-
 def trip_duration_stats(df):
     """Displays total and average trip duration."""
     print('\nCalculating Trip Duration...\n')
@@ -92,7 +89,6 @@ def trip_duration_stats(df):
     print("Mean travel time:", df['Trip Duration'].mean())
 
     print('-' * 40)
-
 
 def user_stats(df, city):
     """Displays user info statistics."""
@@ -112,7 +108,6 @@ def user_stats(df, city):
 
     print('-' * 40)
 
-
 def display_raw_data(df):
     """Displays raw data upon request."""
     i = 0
@@ -122,7 +117,6 @@ def display_raw_data(df):
             break
         print(df.iloc[i:i+5])
         i += 5
-
 
 def main():
     while True:
@@ -138,7 +132,6 @@ def main():
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
-
 
 if __name__ == "__main__":
     main()
