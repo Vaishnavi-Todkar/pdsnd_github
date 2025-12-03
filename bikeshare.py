@@ -39,6 +39,10 @@ def get_filters():
     print('-' * 40)
     return city, month, day
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> documentation
 def load_data(city, month, day):
     """
     Loads data and filters by month and day if applicable.
@@ -69,6 +73,10 @@ def time_stats(df):
 
     print('-' * 40)
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> documentation
 def station_stats(df):
     """Displays popular stations and trips."""
     print('\nCalculating The Most Popular Stations and Trip...\n')
@@ -81,6 +89,10 @@ def station_stats(df):
 
     print('-' * 40)
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> documentation
 def trip_duration_stats(df):
     """Displays total and average trip duration."""
     print('\nCalculating Trip Duration...\n')
@@ -90,6 +102,10 @@ def trip_duration_stats(df):
 
     print('-' * 40)
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> documentation
 def user_stats(df, city):
     """Displays user info statistics."""
     print('\nCalculating User Stats...\n')
@@ -108,6 +124,10 @@ def user_stats(df, city):
 
     print('-' * 40)
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> documentation
 def display_raw_data(df):
     """Displays raw data upon request."""
     i = 0
@@ -118,6 +138,10 @@ def display_raw_data(df):
         print(df.iloc[i:i+5])
         i += 5
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> documentation
 def main():
     while True:
         city, month, day = get_filters()
@@ -133,5 +157,9 @@ def main():
         if restart.lower() != 'yes':
             break
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> documentation
 if __name__ == "__main__":
     main()
